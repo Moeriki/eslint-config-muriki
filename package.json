@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-muriki",
+  "version": "0.9.0",
+  "description": "An excellent eslint config you should totally use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moeriki/eslint-config-muriki.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "preset"
+  ],
+  "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moeriki/eslint-config-muriki/issues"
+  },
+  "homepage": "https://github.com/Moeriki/eslint-config-muriki#readme",
+  "devDependencies": {
+    "eslint": "^2.0.0-rc.0"
+  }
+}
