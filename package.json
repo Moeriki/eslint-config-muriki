@@ -4,11 +4,12 @@
   "description": "An excellent eslint config you should totally use.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "eslint .",
+    "test": "echo 'No tests.'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Moeriki/eslint-config-muriki.git"
+    "url": "git@github.com:Moeriki/eslint-config-muriki.git"
   },
   "keywords": [
     "eslint",
@@ -16,12 +17,14 @@
     "preset"
   ],
   "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Moeriki/eslint-config-muriki/issues"
   },
-  "homepage": "https://github.com/Moeriki/eslint-config-muriki#readme",
-  "devDependencies": {
-    "eslint": "^2.0.0-rc.0"
+  "homepage": "https://github.com/Moeriki/eslint-config-muriki",
+  "dependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint-plugin-import": "^1.0.4",
+    "eslint-plugin-react": "^4.2.1"
   }
 }

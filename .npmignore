@@ -1,1 +1,4 @@
+.editorconfig
 .eslintrc.js
+.gitignore
+.npmignore
