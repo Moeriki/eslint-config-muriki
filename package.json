@@ -1,11 +1,14 @@
 {
   "name": "eslint-config-muriki",
   "version": "0.9.0",
-  "description": "An excellent eslint config you should totally use.",
+  "description": "My excellent eslint config.",
   "main": "index.js",
+  "engines": {
+    "node": 4
+  },
   "scripts": {
     "pretest": "eslint .",
-    "test": "echo 'No tests.'"
+    "test": "mocha test/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,10 @@
     "babel-eslint": "^5.0.0",
     "eslint-plugin-import": "^1.0.4",
     "eslint-plugin-react": "^4.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.4.0",
+    "mocha": "^2.4.5"
   }
 }
