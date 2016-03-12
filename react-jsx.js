@@ -15,7 +15,7 @@ module.exports = {
   rules: {
 
     'react/jsx-boolean-value': [1, 'never'],
-    'react/jsx-closing-bracket-location': [1, 'after-props'],
+    'react/jsx-closing-bracket-location': [1, 'props-aligned'],
     'react/jsx-curly-spacing': [1,
       'never',
       { allowMultiline: true },
@@ -37,7 +37,7 @@ module.exports = {
     'react/jsx-no-undef': 2,
     'react/jsx-pascal-case': 1,
     'react/jsx-sort-props': 0,
-    'react/jsx-space-before-closing': 1,
+    'react/jsx-space-before-closing': [1, 'always'],
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
 
