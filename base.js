@@ -66,7 +66,7 @@ module.exports = {
     'no-floating-decimal': 1,
     'no-implicit-coercion': 1,
     'no-implied-eval': 2,
-    'no-invalid-this': 0,
+    'no-invalid-this': 1,
     'no-iterator': 2,
     'no-labels': 2,
     'no-lone-blocks': 1,
@@ -115,7 +115,10 @@ module.exports = {
     'no-shadow-restricted-names': 2,
     'no-undef': [2, { typeof: true }],
     'no-undef-init': 1,
-    'no-unused-vars': [1, { args: 'none' }],
+    'no-unused-vars': [1, {
+      vars: 'all',
+      args: 'after-used',
+    }],
     'no-use-before-define': [2, 'nofunc'],
 
   },
