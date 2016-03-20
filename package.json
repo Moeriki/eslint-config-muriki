@@ -27,8 +27,8 @@
   "homepage": "https://github.com/Moeriki/eslint-config-muriki",
   "dependencies": {
     "babel-eslint": "^5.0.0",
-    "eslint-plugin-import": "^1.0.4",
-    "eslint-plugin-react": "^4.2.1"
+    "eslint-plugin-import": "^1.2.0",
+    "eslint-plugin-react": "^4.2.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
