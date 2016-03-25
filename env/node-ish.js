@@ -30,17 +30,4 @@ module.exports = {
 
   },
 
-  settings: {
-
-    /**
-     * eslint-plugin-import settings
-     */
-
-    'import/ignore': [
-      'node_modules',
-      '\.(scss|css|png|jpg|md)',
-    ],
-
-  },
-
 }

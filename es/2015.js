@@ -6,15 +6,6 @@ module.exports = {
 
   parser: 'babel-eslint',
 
-  plugins: [
-    'import',
-  ],
-
-  extends: [
-    'plugin:import/errors',
-    'plugin:import/warnings',
-  ],
-
   parserOptions: {
     ecmaVersion: 6,
     ecmaFeatures: {
