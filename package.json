@@ -26,12 +26,12 @@
   },
   "homepage": "https://github.com/Moeriki/eslint-config-muriki",
   "dependencies": {
-    "babel-eslint": "^5.0.0",
+    "babel-eslint": "^6.0.0",
     "eslint-plugin-react": "^4.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^2.4.0",
+    "eslint": "^2.5.1",
     "mocha": "^2.4.5"
   }
 }
