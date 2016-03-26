@@ -41,7 +41,7 @@ module.exports = {
     ],
     'id-length': [1, {
       min: 3,
-      exceptions: ['i', '_', 'fs', 'id'],
+      exceptions: ['i', '_', 'fs', 'id', 'x', 'y'],
     }],
     'indent': [1, 2, { SwitchCase: 1 }],
     'jsx-quotes': 1,
