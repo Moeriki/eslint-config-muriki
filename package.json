@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-muriki",
-  "version": "0.11.1",
+  "version": "1.0.0",
   "description": "My excellent eslint config.",
   "main": "index.js",
   "engines": {
@@ -25,13 +25,15 @@
     "url": "https://github.com/Moeriki/eslint-config-muriki/issues"
   },
   "homepage": "https://github.com/Moeriki/eslint-config-muriki",
-  "dependencies": {
-    "babel-eslint": "^6.0.0",
-    "eslint-plugin-react": "^4.2.1"
+  "peerDependencies": {
+    "babel-eslint": "6.0.2",
+    "eslint": "2.6.0",
+    "eslint-plugin-import": "^1.2.0",
+    "eslint-plugin-react": "4.2.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^2.5.1",
-    "mocha": "^2.4.5"
+    "chai": "3.5.0",
+    "eslint": "2.6.0",
+    "mocha": "2.4.5"
   }
 }
