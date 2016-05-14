@@ -3,9 +3,8 @@
 module.exports = {
 
   extends: [
-    './base.js',
-    './style.js',
-    './env/node-4.js',
+    './index.js',
+    './env/node.js',
     './env/node-script.js',
   ],
 

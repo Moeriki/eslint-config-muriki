@@ -4,9 +4,7 @@ module.exports = {
 
   rules: {
 
-    /**
-     * Possible Errors
-     */
+    /* Possible errors */
 
     'no-cond-assign': 2,
     'no-constant-condition': 2,
@@ -31,6 +29,7 @@ module.exports = {
     'no-sparse-arrays': 2,
     'no-unexpected-multiline': 2,
     'no-unreachable': 2,
+    'no-unsafe-finally': 2,
     'use-isnan': 2,
     'valid-jsdoc': [1, {
       requireReturn: false,
@@ -39,9 +38,7 @@ module.exports = {
     }],
     'valid-typeof': 2,
 
-    /**
-     * Best Practices
-     */
+    /* Best practices */
 
     'accessor-pairs': [2, { getWithoutSet: true }],
     'array-callback-return': 2,
@@ -98,15 +95,11 @@ module.exports = {
     'wrap-iife': 1,
     'yoda': 1,
 
-    /**
-     * Strict
-     */
+    /* Strict */
 
     'strict': 2,
 
-    /**
-     * Variables
-     */
+    /* Variables */
 
     'no-catch-shadow': 2,
     'no-delete-var': 2,

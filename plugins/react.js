@@ -8,9 +8,7 @@ module.exports = {
 
   rules: {
 
-    /**
-     * eslint-plugin-react
-     */
+    /* Plugin react */
 
     'react/display-name': [1, { ignoreTranspilerName: false }],
     'react/forbid-prop-types': 0,

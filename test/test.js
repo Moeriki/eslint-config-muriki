@@ -8,7 +8,7 @@ var path = require('path')
 // vendor modules
 
 var expect = require('chai').expect
-var CLIEngine = require('eslint').CLIEngine;
+var CLIEngine = require('eslint').CLIEngine
 
 // private variables
 
@@ -38,20 +38,18 @@ describe('eslint-config-muriki', function () {
 
   [
     'base',
+    'style',
     'env/browser',
-    'env/node-ish',
+    'env/bundled',
     'env/node',
-    'env/node-4',
-    'env/node-5',
     'env/node-script',
     'env/test',
-    'env/test-mocha',
     'es/2015',
     'es/2016',
-    'plugins/import',
+    'es/modules',
+    'plugins/mocha',
     'plugins/react',
     'plugins/react-jsx',
-    'style',
   ].forEach(function (filepath) {
 
     describe(filepath, function () {

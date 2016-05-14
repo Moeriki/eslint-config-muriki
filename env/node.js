@@ -3,7 +3,7 @@
 module.exports = {
 
   extend: [
-    './node-ish.js',
+    './_common-js.js',
   ],
 
   env: {
@@ -12,13 +12,15 @@ module.exports = {
 
   rules: {
 
-    /**
-     * Best Practices
-     */
+    /* Best practices */
 
-    'no-path-concat': 1,
-    'no-process-exit': 1,
-    'no-sync': 1,
+    'no-path-concat': 2,
+    'no-process-exit': 2,
+    'no-sync': 2,
+
+    /* Stylistic consistencies */
+
+    'semi': [1, 'never'],
 
   },
 

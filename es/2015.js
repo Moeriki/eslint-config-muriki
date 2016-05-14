@@ -4,26 +4,8 @@
 
 module.exports = {
 
-  parser: 'babel-eslint',
-
   parserOptions: {
     ecmaVersion: 6,
-    ecmaFeatures: {
-      arrowFunctions: true,
-      blockBindings: true,
-      defaultParams: true,
-      destructuring: true,
-      forOf: true,
-      generators: true,
-      objectLiteralComputedProperties: true,
-      objectLiteralDuplicateProperties: true,
-      objectLiteralShorthandMethods: true,
-      objectLiteralShorthandProperties: true,
-      restParams: true,
-      spread: true,
-      templateStrings: true,
-    },
-    sourceType: 'module',
   },
 
   rules: {
@@ -45,7 +27,6 @@ module.exports = {
      */
 
     'no-param-reassign': 1,
-
     'no-confusing-arrow': 1,
     'no-useless-constructor': 1,
     'object-shorthand': 1,
@@ -61,6 +42,7 @@ module.exports = {
     'arrow-parens': 1,
     'arrow-spacing': 1,
     'generator-star-spacing': 1,
+    'no-useless-computed-key': 1,
     'yield-star-spacing': 1,
 
   },

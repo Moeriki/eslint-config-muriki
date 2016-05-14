@@ -8,9 +8,7 @@ module.exports = {
 
   rules: {
 
-    /**
-     * Possible Errors
-     */
+    /* Possible errors */
 
     'comma-dangle': [2, 'never'],
     'dot-notation': [1, {
@@ -18,9 +16,7 @@ module.exports = {
     }],
     'semi': [2, 'always'],
 
-    /**
-     * Best Practices
-     */
+    /* Best practices */
 
     'no-alert': 2,
     'no-implicit-globals': 2,

@@ -4,21 +4,18 @@
   "description": "My excellent eslint config.",
   "main": "index.js",
   "engines": {
-    "node": "0.12"
+    "node": ">=4.0.0"
   },
   "scripts": {
-    "pretest": "eslint .",
+    "lint": "eslint *.js env/ es/ plugins/ test/",
+    "pretest": "npm run lint",
     "test": "mocha test/"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:Moeriki/eslint-config-muriki.git"
   },
-  "keywords": [
-    "eslint",
-    "config",
-    "preset"
-  ],
+  "keywords": ["eslint"],
   "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -26,14 +23,14 @@
   },
   "homepage": "https://github.com/Moeriki/eslint-config-muriki",
   "peerDependencies": {
-    "babel-eslint": "^6.0.2",
-    "eslint": "^2.6.0",
-    "eslint-plugin-import": "^1.2.0",
-    "eslint-plugin-react": "^4.2.0"
+    "eslint": "2.9.0",
+    "eslint-plugin-import": "1.8.0",
+    "eslint-plugin-mocha": "2.2.0",
+    "eslint-plugin-react": "5.1.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "^2.8.0",
+    "eslint": "2.9.0",
     "mocha": "2.4.5"
   }
 }

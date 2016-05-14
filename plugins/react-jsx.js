@@ -14,6 +14,8 @@ module.exports = {
 
   rules: {
 
+    /* Plugin react */
+
     'react/jsx-boolean-value': [1, 'never'],
     'react/jsx-closing-bracket-location': [1, 'props-aligned'],
     'react/jsx-curly-spacing': [1,

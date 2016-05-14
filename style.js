@@ -4,23 +4,17 @@ module.exports = {
 
   rules: {
 
-    /**
-     * Possible errors
-     */
+    /* Possible errors */
 
     'comma-dangle': [1, 'always-multiline'],
 
-    /**
-     * Best practices
-     */
+    /* Best practices */
 
     'no-magic-numbers': [1, {
       ignore: [-1, 0, 1, 2],
     }],
 
-    /**
-     * Stylistic consistency
-     */
+    /* Stylistic consistency */
 
     'array-bracket-spacing': 1,
     'block-spacing': 1,
