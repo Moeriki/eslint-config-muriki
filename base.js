@@ -17,7 +17,9 @@ module.exports = {
     'no-empty-character-class': 2,
     'no-ex-assign': 2,
     'no-extra-boolean-cast': 1,
-    'no-extra-parens': 1,
+    'no-extra-parens': [1, 'all', {
+      nestedBinaryExpressions: false,
+    }],
     'no-extra-semi': 2,
     'no-func-assign': 2,
     'no-inner-declarations': 1,
@@ -25,17 +27,13 @@ module.exports = {
     'no-irregular-whitespace': 2,
     'no-negated-in-lhs': 2,
     'no-obj-calls': 2,
+    'no-prototype-builtins': 2,
     'no-regex-spaces': 1,
     'no-sparse-arrays': 2,
     'no-unexpected-multiline': 2,
     'no-unreachable': 2,
     'no-unsafe-finally': 2,
     'use-isnan': 2,
-    'valid-jsdoc': [1, {
-      requireReturn: false,
-      requireParamDescription: false,
-      requireReturnDescription: false,
-    }],
     'valid-typeof': 2,
 
     /* Best practices */
@@ -52,6 +50,7 @@ module.exports = {
     'eqeqeq': [1, 'smart'],
     'guard-for-in': 1,
     'no-caller': 2,
+    'no-console': 1,
     'no-div-regex': 1,
     'no-else-return': 1,
     'no-empty-function': 2,
@@ -92,6 +91,12 @@ module.exports = {
     'no-warning-comments': 1,
     'no-with': 2,
     'radix': 2,
+    'require-jsdoc': 0,
+    'valid-jsdoc': [1, {
+      requireReturn: false,
+      requireParamDescription: false,
+      requireReturnDescription: false,
+    }],
     'wrap-iife': 1,
     'yoda': 1,
 

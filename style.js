@@ -73,17 +73,11 @@ module.exports = {
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 1,
     'object-curly-spacing': [1, 'always'],
+    'object-property-newline': 0,
     'one-var-declaration-per-line': 1,
     'operator-linebreak': 1,
     'quote-props': [1, 'consistent-as-needed'],
     'quotes': [1, 'single', 'avoid-escape'],
-    'require-jsdoc': [1, {
-      require: {
-        ClassDeclaration: true,
-        FunctionDeclaration: true,
-        MethodDefinition: true,
-      },
-    }],
     'semi-spacing': 1,
     'space-before-blocks': 1,
     'space-before-function-paren': [1, {
@@ -94,6 +88,7 @@ module.exports = {
     'space-infix-ops': 1,
     'space-unary-ops': 1,
     'spaced-comment': 1,
+    'unicode-bom': 1,
     'wrap-regex': 1,
   },
 

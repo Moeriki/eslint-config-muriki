@@ -13,6 +13,9 @@ module.exports = {
     'comma-dangle': [1,
       'always-multiline',
     ],
+    'dot-notation': [1, {
+      allowKeywords: true,
+    }],
     'semi': [1,
       'never',
     ],
@@ -27,9 +30,8 @@ module.exports = {
 
     'import/ignore': [
       'node_modules',
-      '\\.(css|scss|sass|less|html|png',
+      '\\.(css|scss|sass|less|html|png)',
     ],
-    'import/resolver': 'webpack',
 
   },
 

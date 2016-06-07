@@ -20,7 +20,9 @@ module.exports = {
 
     /* Stylistic consistencies */
 
-    'semi': [1, 'never'],
+    'semi': [1,
+      'never',
+    ],
 
   },
 

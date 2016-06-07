@@ -10,12 +10,12 @@ module.exports = {
 
     /* Best practices */
 
-    'no-dupliucate-imports': 2,
+    'no-duplicate-imports': 2,
     'no-new-require': 1,
 
-    /* ************** */
-    /* Plugin: import */
-    /* ************** */
+    /* ************* */
+    /* Plugin import */
+    /* ************* */
 
     // static analysis
 
@@ -26,19 +26,17 @@ module.exports = {
     'import/default': 2,
     'import/namespace': 2,
 
-    // helpful warnings
+    // Helpful warnings
 
     'import/export': 2,
     'import/no-named-as-default': 1,
     'import/no-named-as-default-member': 1,
     'import/no-deprecated': 0,
-    'import/no-extraneous-dependencies': [2, {
-      devDependencies: false,
-    }],
+    'import/no-extraneous-dependencies': 2,
 
-    // module systems
+    // Module systems
 
-    'import-no-amd': 2,
+    'import/no-amd': 2,
 
     // style guide
 
