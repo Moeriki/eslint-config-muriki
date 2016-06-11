@@ -19,9 +19,7 @@ module.exports = {
 
     // static analysis
 
-    'import/no-unresolved': [2, {
-      commonjs: true,
-    }],
+    'import/no-unresolved': [2, { commonjs: true }],
     'import/named': 2,
     'import/default': 2,
     'import/namespace': 2,
@@ -40,9 +38,7 @@ module.exports = {
 
     // style guide
 
-    'import/imports-first': [1, {
-      'absolute-first': true,
-    }],
+    'import/imports-first': [1, { 'absolute-first': true }],
     'import/no-duplicates': 1,
     'import/no-namespace': 0,
 

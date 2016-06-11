@@ -10,9 +10,7 @@ module.exports = {
 
     /* Best practices */
 
-    'no-magic-numbers': [1, {
-      ignore: [-1, 0, 1, 2],
-    }],
+    'no-magic-numbers': [1, { ignore: [-1, 0, 1, 2] }],
 
     /* Stylistic consistency */
 
@@ -37,7 +35,10 @@ module.exports = {
       min: 3,
       exceptions: ['i', '_', 'fs', 'id', 'x', 'y'],
     }],
-    'indent': [1, 2, { SwitchCase: 1 }],
+    'indent': [1,
+      2,
+      { SwitchCase: 1 },
+    ],
     'jsx-quotes': 1,
     'key-spacing': [1, {
       afterColon: true,
@@ -45,11 +46,21 @@ module.exports = {
     }],
     'keyword-spacing': 1,
     'linebreak-style': 1,
-    'lines-around-comment': 1,
+    'lines-around-comment': [1, {
+      beforeBlockComment: true,
+      allowBlockStart: true,
+      allowObjectStart: true,
+      allowArrayStart: true,
+    }],
     'max-depth': [1, 5],
     'max-len': [1, {
       code: 120,
       ignoreComments: true,
+      ignoreUrls: true,
+    }],
+    'max-lines': [1, {
+      skipBlankLines: true,
+      skipComments: true,
     }],
     'max-nested-callbacks': [1, 5],
     'max-params': [1, 5],
@@ -61,17 +72,23 @@ module.exports = {
     'no-bitwise': 2,
     'no-continue': 1,
     'no-lonely-if': 1,
+    'no-mixed-operators': 1,
     'no-mixed-spaces-and-tabs': 1,
     'no-multiple-empty-lines': 1,
     'no-nested-ternary': 2,
     'no-new-object': 2,
     'no-spaced-func': 1,
     'no-trailing-spaces': 1,
-    'no-underscore-dangle': [1, {
-      allow: ['_id'],
-    }],
+    'no-underscore-dangle': [1, { allow: ['_id'] }],
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 1,
+    'object-curly-newline': [1, {
+      ObjectExpression: {
+        minProperties: 2,
+        multiline: true,
+      },
+      ObjectPattern: { multiline: true },
+    }],
     'object-curly-spacing': [1, 'always'],
     'object-property-newline': 0,
     'one-var-declaration-per-line': 1,

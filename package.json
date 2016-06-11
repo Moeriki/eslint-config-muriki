@@ -25,14 +25,15 @@
   },
   "homepage": "https://github.com/Moeriki/eslint-config-muriki",
   "peerDependencies": {
-    "eslint": "^2.11.0",
-    "eslint-plugin-import": "^1.8.0",
+    "eslint": "^2.12.0",
+    "eslint-plugin-import": "^1.9.0",
     "eslint-plugin-mocha": "^3.0.0",
-    "eslint-plugin-react": "^5.1.0"
+    "eslint-plugin-react": "^5.1.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "2.11.1",
+    "eslint": "2.12.0",
+    "eslint-plugin-mocha": "3.0.0",
     "mocha": "2.5.3"
   }
 }

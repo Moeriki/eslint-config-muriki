@@ -13,9 +13,7 @@ module.exports = {
     'comma-dangle': [1,
       'always-multiline',
     ],
-    'dot-notation': [1, {
-      allowKeywords: true,
-    }],
+    'dot-notation': [1, { allowKeywords: true }],
     'semi': [1,
       'never',
     ],

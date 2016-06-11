@@ -6,6 +6,11 @@ module.exports = {
 
     /* Possible errors */
 
+    'callback-return': [2, [
+      'callback',
+      'next',
+      'done',
+    ]],
     'no-cond-assign': 2,
     'no-constant-condition': 2,
     'no-control-regex': 2,
@@ -17,9 +22,7 @@ module.exports = {
     'no-empty-character-class': 2,
     'no-ex-assign': 2,
     'no-extra-boolean-cast': 1,
-    'no-extra-parens': [1, 'all', {
-      nestedBinaryExpressions: false,
-    }],
+    'no-extra-parens': [1, 'all', { nestedBinaryExpressions: false }],
     'no-extra-semi': 2,
     'no-func-assign': 2,
     'no-inner-declarations': 1,

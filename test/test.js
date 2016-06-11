@@ -60,6 +60,7 @@ describe('eslint-config-muriki', function () {
 
         // verify
         if (output.errorCount) {
+          /* eslint-disable no-console */
           console.log(JSON.stringify(output.results, null, 2))
         }
         expect(output.errorCount).to.equal(0)

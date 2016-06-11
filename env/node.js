@@ -6,9 +6,7 @@ module.exports = {
     './_common-js.js',
   ],
 
-  env: {
-    node: true,
-  },
+  env: { node: true },
 
   rules: {
 

@@ -6,11 +6,7 @@ module.exports = {
     './react.js',
   ],
 
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
+  parserOptions: { ecmaFeatures: { jsx: true } },
 
   rules: {
 
@@ -30,9 +26,7 @@ module.exports = {
     'react/jsx-indent-props': [1, 2],
     'react/jsx-indent': [1, 2],
     'react/jsx-key': 1,
-    'react/jsx-max-props-per-line': [1, {
-      maximum: 3,
-    }],
+    'react/jsx-max-props-per-line': [1, { maximum: 3 }],
     'react/jsx-no-bind': 2,
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-literals': 1,

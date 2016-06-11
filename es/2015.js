@@ -4,9 +4,7 @@
 
 module.exports = {
 
-  parserOptions: {
-    ecmaVersion: 6,
-  },
+  parserOptions: { ecmaVersion: 6 },
 
   rules: {
 
@@ -45,6 +43,7 @@ module.exports = {
     'arrow-spacing': 1,
     'generator-star-spacing': 1,
     'no-useless-computed-key': 1,
+    'rest-spread-spacing': [1, 'never'],
     'yield-star-spacing': 1,
 
   },
