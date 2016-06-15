@@ -10,12 +10,18 @@ module.exports = {
 
     /* Plugin react */
 
-    'react/display-name': [1, { ignoreTranspilerName: false }],
+    'react/display-name': [1,
+      { ignoreTranspilerName: false },
+    ],
     'react/forbid-prop-types': 0,
     'react/no-danger': 1,
     'react/no-deprecated': 2,
-    'react/no-did-mount-set-state': [2, 'allow-in-func'],
-    'react/no-did-update-set-state': [2, 'allow-in-func'],
+    'react/no-did-mount-set-state': [2,
+      'allow-in-func',
+    ],
+    'react/no-did-update-set-state': [2,
+      'allow-in-func',
+    ],
     'react/no-direct-mutation-state': 2,
     'react/no-is-mounted': 2,
     'react/no-multi-comp': 2,
