@@ -1,10 +1,12 @@
 'use strict'
 
+var path = require('path')
+
 module.exports = {
 
   extends: [
-    './base.js',
-    './style.js',
+    path.resolve(__dirname, './base.js'),
+    path.resolve(__dirname, './style.js'),
   ],
 
 }

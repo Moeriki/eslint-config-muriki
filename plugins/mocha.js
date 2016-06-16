@@ -4,13 +4,17 @@ module.exports = {
 
   env: { mocha: true },
 
+  plugins: [
+    'mocha',
+  ],
+
   rules: {
 
     /* ************ */
     /* Plugin mocha */
     /* ************ */
 
-    'mocha/no-exlusive-test': 2,
+    'mocha/no-exclusive-tests': 2,
     'mocha/no-skipped-tests': 1,
     'mocha/no-pending-tests': 1,
     'mocha/handle-done-callback': 2,

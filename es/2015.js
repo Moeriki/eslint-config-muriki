@@ -4,6 +4,10 @@
 
 module.exports = {
 
+  extends: [
+    '../env/_common-js.js',
+  ],
+
   parserOptions: { ecmaVersion: 6 },
 
   rules: {
@@ -41,7 +45,10 @@ module.exports = {
     'arrow-body-style': 1,
     'arrow-parens': 1,
     'arrow-spacing': 1,
-    'generator-star-spacing': 1,
+    'generator-star-spacing': [1, {
+      before: false,
+      after: true,
+    }],
     'no-useless-computed-key': 1,
     'rest-spread-spacing': [1,
       'never',

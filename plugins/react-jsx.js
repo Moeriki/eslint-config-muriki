@@ -2,6 +2,10 @@
 
 module.exports = {
 
+  plugins: [
+    'jsx-a11y',
+  ],
+
   extends: [
     './react.js',
   ],
@@ -47,6 +51,32 @@ module.exports = {
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
 
+    /* *************** */
+    /* Plugin jsx-a11y */
+    /* *************** */
+
+    'jsx-a11y/aria-props': 2,
+    'jsx-a11y/aria-proptypes': 2,
+    'jsx-a11y/aria-role': 2,
+    'jsx-a11y/aria-unsupported-elements': 2,
+    'jsx-a11y/href-no-hash': [2,
+      ['Link'],
+    ],
+    'jsx-a11y/img-has-alt': [2,
+      ['Image'],
+    ],
+    'jsx-a11y/img-redundant-alt': 1,
+    'jsx-a11y/label-has-for': [2,
+      ['Label'],
+    ],
+    'jsx-a11y/mouse-events-have-key-events': 2,
+    'jsx-a11y/no-access-key': 2,
+    'jsx-a11y/no-onchange': 2,
+    'jsx-a11y/onclick-has-focus': 2,
+    'jsx-a11y/onclick-has-role': 2,
+    'jsx-a11y/role-has-required-aria-props': 2,
+    'jsx-a11y/role-supports-aria-props': 2,
+    'jsx-a11y/tabindex-no-positive': 2,
   },
 
 }
