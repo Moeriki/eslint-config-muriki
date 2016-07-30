@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
@@ -133,10 +133,13 @@ module.exports = {
       'nofunc',
     ],
 
-    /* Stylistic issues */
+    /* Stylistic consistency */
 
     'no-tabs': 1,
+    'semi': [1,
+      'always',
+    ],
 
   },
 
-}
+};

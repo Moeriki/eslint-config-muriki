@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
@@ -81,4 +81,4 @@ module.exports = {
     'jsx-a11y/tabindex-no-positive': 2,
   },
 
-}
+};

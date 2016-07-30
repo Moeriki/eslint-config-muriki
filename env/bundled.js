@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
@@ -16,9 +16,6 @@ module.exports = {
     'dot-notation': [1,
       { allowKeywords: true },
     ],
-    'semi': [1,
-      'never',
-    ],
 
   },
 
@@ -35,4 +32,4 @@ module.exports = {
 
   },
 
-}
+};

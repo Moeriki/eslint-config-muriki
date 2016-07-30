@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
@@ -109,4 +109,4 @@ module.exports = {
     'wrap-regex': 1,
   },
 
-}
+};

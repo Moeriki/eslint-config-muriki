@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 // exports
 
@@ -57,4 +57,4 @@ module.exports = {
 
   },
 
-}
+};

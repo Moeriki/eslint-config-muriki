@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 module.exports = {
 
@@ -18,10 +18,7 @@ module.exports = {
 
     /* Stylistic consistencies */
 
-    'semi': [1,
-      'never',
-    ],
 
   },
 
-}
+};

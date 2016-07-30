@@ -1,18 +1,18 @@
-'use strict'
+'use strict';
 
 // node
 
-var fs = require('fs')
-var path = require('path')
+var fs = require('fs');
+var path = require('path');
 
 // vendor modules
 
-var expect = require('chai').expect
-var CLIEngine = require('eslint').CLIEngine
+var expect = require('chai').expect;
+var CLIEngine = require('eslint').CLIEngine;
 
 // private variables
 
-var fixture = fs.readFileSync(path.join(__dirname, './fixture.js'))
+var fixture = fs.readFileSync(path.join(__dirname, './fixture.js'));
 
 // private functions
 
@@ -22,14 +22,14 @@ var fixture = fs.readFileSync(path.join(__dirname, './fixture.js'))
  * @return {boolean}
  */
 function cliOutput(filepath) {
-  var fullFilepath = path.join(__dirname, '../', filepath + '.js')
+  var fullFilepath = path.join(__dirname, '../', filepath + '.js');
 
   var cli = new CLIEngine({
     useEslintrc: false,
     configFile: fullFilepath,
-  })
+  });
 
-  return cli.executeOnText(fixture)
+  return cli.executeOnText(fixture);
 }
 
 // tests
@@ -56,18 +56,18 @@ describe('eslint-config-muriki', function () {
 
       it('should be valid config', function () {
         // test
-        var output = cliOutput(filepath)
+        var output = cliOutput(filepath);
 
         // verify
         if (output.errorCount) {
           /* eslint-disable no-console */
-          console.log(JSON.stringify(output.results, null, 2))
+          console.log(JSON.stringify(output.results, null, 2));
         }
-        expect(output.errorCount).to.equal(0)
-      })
+        expect(output.errorCount).to.equal(0);
+      });
 
-    })
+    });
 
-  })
+  });
 
-})
+});
