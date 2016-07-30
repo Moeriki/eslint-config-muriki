@@ -16,6 +16,9 @@ module.exports = {
     'dot-notation': [1,
       { allowKeywords: true },
     ],
+    'semi': [1,
+      'always',
+    ],
 
   },
 
