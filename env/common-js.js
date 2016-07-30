@@ -12,6 +12,7 @@ module.exports = {
 
     'no-duplicate-imports': 2,
     'no-new-require': 1,
+    'strict': [2, 'global'],
 
     /* ************* */
     /* Plugin import */
