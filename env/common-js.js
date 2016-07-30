@@ -6,6 +6,8 @@ module.exports = {
     'import',
   ],
 
+  env: { commonjs: true },
+
   rules: {
 
     /* Best practices */
