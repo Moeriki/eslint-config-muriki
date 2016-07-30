@@ -10,7 +10,10 @@ module.exports = {
 
     /* Best practices */
 
-    'no-magic-numbers': [1, { ignore: [-1, 0, 1, 2] }],
+    'no-magic-numbers': [1, {
+      enforceConst: true,
+      ignore: [-1, 0, 1, 2, 7, 12, 24, 30, 60],
+    }],
 
     /* Stylistic consistency */
 
