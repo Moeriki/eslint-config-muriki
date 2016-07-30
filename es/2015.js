@@ -8,6 +8,7 @@ module.exports = {
     '../env/_common-js.js',
   ],
 
+  env: { es6: true },
   parserOptions: { ecmaVersion: 6 },
 
   rules: {
