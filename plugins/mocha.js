@@ -18,8 +18,11 @@ module.exports = {
     'mocha/no-skipped-tests': 1,
     'mocha/no-pending-tests': 1,
     'mocha/handle-done-callback': 2,
+    'mocha/no-mocha-arrows': 1,
     'mocha/no-synchronous-tests': 0,
     'mocha/no-global-tests': 2,
+    'mocha/valid-suite-description': 0,
+    'mocha/valid-test-description': 1,
 
   },
 

@@ -29,6 +29,7 @@ module.exports = {
     'react/jsx-equals-spacing': [1,
       'never',
     ],
+    'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
     'react/jsx-handler-names': [1, {
       eventHandlerPrefix: 'handle',
       eventHandlerPropPrefix: 'on',
@@ -40,6 +41,7 @@ module.exports = {
       { maximum: 3 },
     ],
     'react/jsx-no-bind': 2,
+    'react/jsx-no-comment-textnodes': 0,
     'react/jsx-no-duplicate-props': 2,
     'react/jsx-no-literals': 1,
     'react/jsx-no-undef': 2,

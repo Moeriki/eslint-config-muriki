@@ -25,6 +25,7 @@ module.exports = {
     'react/no-direct-mutation-state': 2,
     'react/no-is-mounted': 2,
     'react/no-multi-comp': 2,
+    'react/no-render-return-value': 2,
     'react/no-set-state': 0,
     'react/no-string-refs': 2,
     'react/no-unknown-property': 2,
@@ -33,7 +34,8 @@ module.exports = {
     'react/prop-types': 1,
     'react/react-in-jsx-scope': 2,
     'react/require-extension': 0,
-    'react/self-closing-comp': 1,
+    'react/require-optimization': 0,
+    'react/self-closing-comp': [1, { html: false }],
     'react/sort-comp': 0,
     'react/sort-prop-types': [1, {
       callbacksLast: true,

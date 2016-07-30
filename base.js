@@ -133,6 +133,10 @@ module.exports = {
       'nofunc',
     ],
 
+    /* Stylistic issues */
+
+    'no-tabs': 1,
+
   },
 
 }
