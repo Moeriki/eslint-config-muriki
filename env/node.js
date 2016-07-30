@@ -3,7 +3,7 @@
 module.exports = {
 
   extend: [
-    './_common-js.js',
+    './common-js.js',
   ],
 
   env: { node: true },

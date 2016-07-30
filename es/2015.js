@@ -5,7 +5,7 @@
 module.exports = {
 
   extends: [
-    '../env/_common-js.js',
+    '../env/common-js.js',
   ],
 
   env: { es6: true },

@@ -3,7 +3,7 @@
 module.exports = {
 
   extends: [
-    './_common-js.js',
+    './common-js.js',
   ],
 
   rules: {

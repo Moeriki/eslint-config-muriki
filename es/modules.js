@@ -3,7 +3,7 @@
 module.exports = {
 
   extends: [
-    '../env/_common-js.js',
+    '../env/common-js.js',
   ],
 
   parserOptions: {
