@@ -2,8 +2,13 @@
 
 module.exports = {
 
+  plugins: [
+    'node',
+  ],
+
   extend: [
     './common-js.js',
+    'plugin:node/recommended',
   ],
 
   env: { node: true },
@@ -15,9 +20,6 @@ module.exports = {
     'no-path-concat': 2,
     'no-process-exit': 2,
     'no-sync': 2,
-
-    /* Stylistic consistencies */
-
 
   },
 

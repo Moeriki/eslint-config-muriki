@@ -24,16 +24,18 @@
     "url": "https://github.com/Moeriki/eslint-config-muriki/issues"
   },
   "homepage": "https://github.com/Moeriki/eslint-config-muriki",
-  "peerDependencies": {
-    "eslint": "3.2.x",
-    "eslint-plugin-import": "1.12.x",
-    "eslint-plugin-jsx-a11y": "2.0.x",
-    "eslint-plugin-mocha": "4.2.x",
-    "eslint-plugin-react": "5.2.x"
-  },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "3.2.0",
-    "mocha": "2.5.3"
+    "eslint": "3.3.1",
+    "eslint-plugin-ava": "3.0.0",
+    "eslint-plugin-import": "1.13.0",
+    "eslint-plugin-jsx-a11y": "2.1.0",
+    "eslint-plugin-mocha": "4.3.0",
+    "eslint-plugin-node": "2.0.0",
+    "eslint-plugin-react": "6.1.2",
+    "mocha": "3.0.2"
+  },
+  "peerDependencies": {
+    "eslint": "3.3.x"
   }
 }

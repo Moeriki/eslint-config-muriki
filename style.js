@@ -26,6 +26,7 @@ module.exports = {
     'computed-property-spacing': 1,
     'consistent-this': [1, 'self'],
     'eol-last': 1,
+    'func-call-spacing': 1,
     'func-names': 1,
     'id-blacklist': [1,
       'obj', 'object',
@@ -80,7 +81,6 @@ module.exports = {
     'no-multiple-empty-lines': 1,
     'no-nested-ternary': 2,
     'no-new-object': 2,
-    'no-spaced-func': 1,
     'no-trailing-spaces': 1,
     'no-underscore-dangle': [1, { allow: ['_id'] }],
     'no-unneeded-ternary': 2,
@@ -99,6 +99,7 @@ module.exports = {
     'quote-props': [1, 'consistent-as-needed'],
     'quotes': [1, 'single', 'avoid-escape'],
     'semi-spacing': 1,
+    'sort-keys': 0,
     'space-before-blocks': 1,
     'space-before-function-paren': [1, {
       anonymous: 'always',

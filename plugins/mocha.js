@@ -15,6 +15,8 @@ module.exports = {
     /* ************ */
 
     'mocha/no-exclusive-tests': 2,
+    'mocha/no-hooks': 0,
+    'mocha/no-sibling-hooks': 0,
     'mocha/no-skipped-tests': 1,
     'mocha/no-pending-tests': 1,
     'mocha/handle-done-callback': 2,

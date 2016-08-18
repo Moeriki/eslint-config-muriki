@@ -52,11 +52,13 @@ module.exports = {
     ],
     'react/jsx-uses-react': 1,
     'react/jsx-uses-vars': 1,
+    'react/jsx-wrap-multilines': 1,
 
     /* *************** */
     /* Plugin jsx-a11y */
     /* *************** */
 
+    'jsx-a11y/anchor-has-content': 2,
     'jsx-a11y/aria-props': 2,
     'jsx-a11y/aria-proptypes': 2,
     'jsx-a11y/aria-role': 2,

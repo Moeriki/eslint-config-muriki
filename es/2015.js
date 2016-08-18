@@ -33,6 +33,7 @@ module.exports = {
     'no-confusing-arrow': 1,
     'no-useless-constructor': 1,
     'no-useless-rename': 1,
+    'no-template-curly-in-string': 1,
     'object-shorthand': 1,
     'prefer-const': 1,
     'prefer-rest-params': 1,
