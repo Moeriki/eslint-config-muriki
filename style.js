@@ -85,15 +85,11 @@ module.exports = {
     'no-underscore-dangle': [1, { allow: ['_id'] }],
     'no-unneeded-ternary': 2,
     'no-whitespace-before-property': 1,
-    'object-curly-newline': [1, {
-      ObjectExpression: {
-        minProperties: 2,
-        multiline: true,
-      },
-      ObjectPattern: { multiline: true },
-    }],
+    'object-curly-newline': 0,
     'object-curly-spacing': [1, 'always'],
-    'object-property-newline': 0,
+    'object-property-newline': [1, {
+      allowMultiplePropertiesPerLine: true,
+    }],
     'one-var-declaration-per-line': 1,
     'operator-linebreak': 1,
     'quote-props': [1, 'consistent-as-needed'],
