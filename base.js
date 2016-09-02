@@ -24,7 +24,11 @@ module.exports = {
     'no-extra-boolean-cast': 1,
     'no-extra-parens': [1,
       'all',
-      { nestedBinaryExpressions: false },
+      {
+        conditionalAssign: false,
+        nestedBinaryExpressions: false,
+        returnAssign: false,
+      },
     ],
     'no-extra-semi': 2,
     'no-func-assign': 2,
