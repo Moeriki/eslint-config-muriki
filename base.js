@@ -44,7 +44,7 @@ module.exports = {
     'no-unsafe-finally': 2,
     'no-unsafe-negation': 1,
     'use-isnan': 2,
-    'valid-typeof': 2,
+    'valid-typeof': [2, { requireStringLiterals: true }],
 
     /* Best practices */
 
@@ -92,6 +92,7 @@ module.exports = {
     'no-octal-escape': 2,
     'no-proto': 2,
     'no-redeclare': 2,
+    'no-restricted-properties': 0,
     'no-return-assign': 1,
     'no-script-url': 2,
     'no-self-assign': [2, { props: true }],

@@ -56,10 +56,15 @@ module.exports = {
       allowObjectStart: true,
       allowArrayStart: true,
     }],
+    'lines-around-directive': 1,
+    'line-comment-position': 0,
     'max-depth': [1, 5],
     'max-len': [1, {
       code: 120,
       ignoreComments: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreTrailingComments: true,
       ignoreUrls: true,
     }],
     'max-lines': [1, {

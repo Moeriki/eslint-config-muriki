@@ -9,7 +9,7 @@ module.exports = {
   ],
 
   env: { es6: true },
-  parserOptions: { ecmaVersion: 6 },
+  parserOptions: { ecmaVersion: 2015 },
 
   rules: {
 
@@ -29,6 +29,7 @@ module.exports = {
      * Best Practices
      */
 
+    'class-methods-use-this': 1,
     'no-param-reassign': 1,
     'no-confusing-arrow': 1,
     'no-useless-constructor': 1,
@@ -36,9 +37,11 @@ module.exports = {
     'no-template-curly-in-string': 1,
     'object-shorthand': 1,
     'prefer-const': 1,
+    'prefer-numeric-literals': 1,
     'prefer-rest-params': 1,
     'prefer-spread': 1,
     'prefer-template': 1,
+    'symbol-description': 1,
 
     /**
      * Stylistic Consistency
