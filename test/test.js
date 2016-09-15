@@ -2,17 +2,17 @@
 
 // node
 
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
 // vendor modules
 
-var expect = require('chai').expect;
-var CLIEngine = require('eslint').CLIEngine;
+const expect = require('chai').expect;
+const CLIEngine = require('eslint').CLIEngine;
 
 // private variables
 
-var fixture = fs.readFileSync(path.join(__dirname, './fixture.js'));
+const fixture = fs.readFileSync(path.join(__dirname, './fixture.js'));
 
 // private functions
 
@@ -22,9 +22,9 @@ var fixture = fs.readFileSync(path.join(__dirname, './fixture.js'));
  * @return {boolean}
  */
 function cliOutput(filepath) {
-  var fullFilepath = path.join(__dirname, '../', filepath + '.js');
+  const fullFilepath = path.join(__dirname, '../', `${filepath}.js`);
 
-  var cli = new CLIEngine({
+  const cli = new CLIEngine({
     useEslintrc: false,
     configFile: fullFilepath,
   });
@@ -53,13 +53,13 @@ describe('eslint-config-muriki', function () {
     'plugins/mocha',
     'plugins/react',
     'plugins/react-jsx',
-  ].forEach(function (filepath) {
+  ].forEach((filepath) => {
 
     describe(filepath, function () {
 
       it('should be valid config', function () {
         // test
-        var output = cliOutput(filepath);
+        const output = cliOutput(filepath);
 
         // verify
         if (output.errorCount) {
