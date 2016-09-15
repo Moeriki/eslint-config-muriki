@@ -31,7 +31,9 @@ module.exports = {
 
     // Helpful warnings
 
+
     'import/export': 2,
+    'import/no-absolute-path': 2,
     'import/no-named-as-default': 1,
     'import/no-named-as-default-member': 1,
     'import/no-deprecated': 0,
@@ -46,6 +48,7 @@ module.exports = {
     'import/imports-first': [1,
       { 'absolute-first': true },
     ],
+    'import/max-dependencies': 0,
     'import/no-duplicates': 1,
     'import/no-namespace': 0,
 
