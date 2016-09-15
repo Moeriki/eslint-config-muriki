@@ -46,6 +46,7 @@ describe('eslint-config-muriki', function () {
     'env/node-script',
     'env/test',
     'es/2015',
+    'es/2015-node4',
     'es/2016',
     'es/modules',
     'plugins/ava',
