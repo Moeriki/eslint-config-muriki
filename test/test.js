@@ -49,7 +49,6 @@ describe('eslint-config-muriki', function () {
     'es/2015-node4',
     'es/2016',
     'es/modules',
-    'plugins/ava',
     'plugins/mocha',
     'plugins/react',
     'plugins/react-jsx',

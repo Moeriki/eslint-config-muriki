@@ -37,7 +37,6 @@
   },
   "peerDependencies": {
     "eslint": "3.5.x",
-    "eslint-plugin-ava": "3.0.x",
     "eslint-plugin-import": "1.14.x",
     "eslint-plugin-jsx-a11y": "2.1.x",
     "eslint-plugin-mocha": "4.3.x",
