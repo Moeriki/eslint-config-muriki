@@ -55,7 +55,7 @@ module.exports = {
     'block-scoped-var': 2,
     'complexity': [1, 7],
     'consistent-return': 1,
-    'curly': 2,
+    'curly': [2, 'multi-line'],
     'default-case': 1,
     'dot-location': [1,
       'property',
