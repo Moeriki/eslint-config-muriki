@@ -16,7 +16,7 @@ module.exports = {
 
     'no-param-reassign': 0,
     'prefer-rest-params': 0,
-    'prefer-spread': 1,
+    'prefer-spread': 0,
 
   },
 
