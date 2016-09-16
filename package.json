@@ -39,6 +39,7 @@
   "peerDependencies": {
     "eslint": "3.5.x",
     "eslint-plugin-import": "1.15.x",
+    "eslint-plugin-jasmine": "1.8.x",
     "eslint-plugin-jsx-a11y": "2.1.x",
     "eslint-plugin-mocha": "4.3.x",
     "eslint-plugin-node": "2.0.x",
