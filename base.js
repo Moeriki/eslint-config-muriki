@@ -68,7 +68,7 @@ module.exports = {
     'no-div-regex': 1,
     'no-global-assign': 2,
     'no-else-return': 1,
-    'no-empty-function': 2,
+    'no-empty-function': 1,
     'no-empty-pattern': 2,
     'no-eval': 2,
     'no-extend-native': 2,
