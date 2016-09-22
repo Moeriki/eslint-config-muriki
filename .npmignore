@@ -3,3 +3,4 @@
 .gitignore
 .npmignore
 .npmrc
+.travis.yml
