@@ -14,4 +14,8 @@ module.exports = {
     jasmine: true,
   },
 
+  rules: {
+    'arrow-body-style': 0,
+  },
+
 };
