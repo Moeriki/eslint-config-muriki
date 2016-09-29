@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-muriki",
-  "version": "5.2.4",
+  "version": "5.3.0",
   "description": "My excellent eslint config.",
   "main": "index.js",
   "engines": {
