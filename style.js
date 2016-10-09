@@ -37,7 +37,7 @@ module.exports = {
     ],
     'id-length': [1, {
       min: 3,
-      exceptions: ['_', '$', '$q', 'cb', 'fs', 'i', 'id', 'x', 'y'],
+      exceptions: ['_', '$', '$q', 'cb', 'fs', 'i', 'id', 'x', 'y', 'S3'],
     }],
     'indent': [1,
       2,
