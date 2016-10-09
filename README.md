@@ -2,7 +2,7 @@
 
 An extensive opinionated ESLint config.
 
-[![Build Status](https://travis-ci.org/Moeriki/eslint-config-muriki.svg?branch=master)](https://travis-ci.org/Moeriki/eslint-config-muriki) [![dependencies Status](https://david-dm.org/moeriki/eslint-config-muriki/status.svg)](https://david-dm.org/moeriki/eslint-config-muriki) [![Downloads](http://img.shields.io/npm/dm/eslint-config-muriki.svg?style=flat)](https://www.npmjs.org/package/eslint-config-muriki)
+[![Build Status](https://travis-ci.org/Moeriki/eslint-config-muriki.svg?branch=master)](https://travis-ci.org/Moeriki/eslint-config-muriki) [![Known Vulnerabilities](https://snyk.io/test/github/moeriki/eslint-config-muriki/badge.svg)](https://snyk.io/test/github/moeriki/eslint-config-muriki) [![dependencies Status](https://david-dm.org/moeriki/eslint-config-muriki/status.svg)](https://david-dm.org/moeriki/eslint-config-muriki) [![Downloads](http://img.shields.io/npm/dm/eslint-config-muriki.svg?style=flat)](https://www.npmjs.org/package/eslint-config-muriki)
 
 ---
 
