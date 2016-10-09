@@ -4,12 +4,13 @@
 
 module.exports = {
 
-  extends: [
-    '../env/common-js.js',
-  ],
+  env: {
+    es6: true,
+  },
 
-  env: { es6: true },
-  parserOptions: { ecmaVersion: 2015 },
+  parserOptions: {
+    ecmaVersion: 2015,
+  },
 
   rules: {
 
