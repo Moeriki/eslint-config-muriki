@@ -51,7 +51,6 @@ describe('eslint-config-muriki', function () {
     'es/modules',
     'plugins/mocha',
     'plugins/react',
-    'plugins/react-jsx',
   ].forEach((filepath) => {
 
     describe(filepath, function () {
