@@ -6,7 +6,9 @@ module.exports = {
     'import',
   ],
 
-  env: { commonjs: true },
+  env: {
+    commonjs: true,
+  },
 
   rules: {
 
@@ -31,13 +33,14 @@ module.exports = {
 
     // Helpful warnings
 
-
     'import/export': 2,
     'import/no-absolute-path': 2,
     'import/no-named-as-default': 1,
     'import/no-named-as-default-member': 1,
     'import/no-deprecated': 0,
-    'import/no-extraneous-dependencies': 2,
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: false,
+    }],
 
     // Module systems
 

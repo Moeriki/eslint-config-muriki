@@ -6,6 +6,10 @@ module.exports = {
     './node.js',
   ],
 
+  plugins: [
+    'import',
+  ],
+
   rules: {
 
     'arrow-body-style': 0,
@@ -13,6 +17,14 @@ module.exports = {
     'handle-callback-err': 0,
     'no-unused-expressions': 0,
     'no-sync': 0,
+
+    /* ************* */
+    /* Plugin import */
+    /* ************* */
+
+    'import/no-extraneous-dependencies': [2, {
+      devDependencies: true,
+    }],
 
   },
 

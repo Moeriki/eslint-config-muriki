@@ -6,6 +6,10 @@ module.exports = {
     './node.js',
   ],
 
+  plugins: [
+    'import',
+  ],
+
   rules: {
 
     'func-names': 0,
@@ -14,6 +18,14 @@ module.exports = {
     'no-process-exit': 0,
     'no-sync': 0,
     'require-jsdoc': 0,
+
+    /* ************* */
+    /* Plugin import */
+    /* ************* */
+
+    'import/no-extraneous-dependencies': [0, {
+      devDependencies: true,
+    }],
 
   },
 
