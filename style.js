@@ -103,7 +103,7 @@ module.exports = {
       allowMultiplePropertiesPerLine: true,
     }],
     'one-var-declaration-per-line': 1,
-    'operator-linebreak': 1,
+    'operator-linebreak': [1, 'before'],
     'quote-props': [1, 'consistent-as-needed'],
     'quotes': [1, 'single', 'avoid-escape'],
     'semi-spacing': 1,
