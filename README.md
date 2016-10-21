@@ -66,13 +66,3 @@ module.exports = {
 ```
 
 Extending the default [`extends: ['muriki']`] include `base` and `style`.
-
-## TODO
-
-- [ ] proof-read and update README
-- [ ] CLI to lookup rules
-- [ ] CLI to generate config file (.js)
-- [ ] CLI to update config file
-- [ ] CLI to validate config file
-- [ ] CLI to list missing rules
-- [ ] CLI to set / update presets on config file
