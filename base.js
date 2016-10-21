@@ -62,6 +62,7 @@ module.exports = {
     ],
     'dot-notation': 1,
     'eqeqeq': [1, 'smart'],
+    'func-name-matching': 1,
     'guard-for-in': 1,
     'no-caller': 2,
     'no-console': 1,

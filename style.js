@@ -6,7 +6,13 @@ module.exports = {
 
     /* Possible errors */
 
-    'comma-dangle': [1, 'always-multiline'],
+    'comma-dangle': [1, {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'ignore',
+    }],
 
     /* Best practices */
 

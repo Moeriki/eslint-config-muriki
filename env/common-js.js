@@ -16,6 +16,7 @@ module.exports = {
 
     'no-duplicate-imports': 2,
     'no-new-require': 1,
+    'no-unassigned-import/import': 0,
     'strict': [2, 'global'],
 
     /* ************* */
@@ -45,20 +46,29 @@ module.exports = {
     // Module systems
 
     'import/no-amd': 2,
+    'import/no-webpack-loader-syntax': 2,
+    'import/unambiguous': 2,
 
     // style guide
 
-    'import/imports-first': [1,
+    'import/first': [1,
       { 'absolute-first': true },
     ],
     'import/max-dependencies': 0,
+    'import/newline-after-import': 1,
     'import/no-duplicates': 1,
     'import/no-namespace': 0,
+    'import/order': ['error', {
+      groups: [
+        'builtin',
+        'external',
+        'internal',
+        'parent',
+        'sibling',
+        'index',
+      ],
+    }],
 
-  },
-
-  settings: {
-    'import/extensions': ['.js'],
   },
 
 };
