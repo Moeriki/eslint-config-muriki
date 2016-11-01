@@ -21,28 +21,28 @@
     "node": ">=4"
   },
   "scripts": {
-    "lint": "eslint *.js env/ es/ plugins/ test/",
+    "lint": "eslint **/*.js",
     "pretest": "npm run lint",
-    "test": "mocha test/"
+    "test": "mocha"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "3.8.1",
-    "eslint-plugin-import": "2.0.x",
-    "eslint-plugin-jasmine": "1.8.x",
-    "eslint-plugin-jsx-a11y": "2.2.x",
-    "eslint-plugin-mocha": "4.6.x",
-    "eslint-plugin-node": "2.1.x",
-    "eslint-plugin-react": "6.3.x",
-    "mocha": "3.1.0"
+    "eslint": "3.9.1",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-plugin-jasmine": "1.8.1",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-mocha": "4.6.0",
+    "eslint-plugin-node": "3.0.3",
+    "eslint-plugin-react": "6.4.1",
+    "mocha": "3.1.2"
   },
   "peerDependencies": {
-    "eslint": "3.8.x",
-    "eslint-plugin-import": "2.0.x",
-    "eslint-plugin-jasmine": "1.8.x",
-    "eslint-plugin-jsx-a11y": "2.2.x",
-    "eslint-plugin-mocha": "4.6.x",
-    "eslint-plugin-node": "2.1.x",
-    "eslint-plugin-react": "6.3.x"
+    "eslint": "3.9.x",
+    "eslint-plugin-import": "2.0",
+    "eslint-plugin-jasmine": "1.8",
+    "eslint-plugin-jsx-a11y": "2.2",
+    "eslint-plugin-mocha": "4.6",
+    "eslint-plugin-node": "3.0",
+    "eslint-plugin-react": "6.4"
   }
 }
