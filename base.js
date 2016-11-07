@@ -48,9 +48,7 @@ module.exports = {
 
     /* Best practices */
 
-    'accessor-pairs': [2,
-      { getWithoutSet: true },
-    ],
+    'accessor-pairs': 2,
     'array-callback-return': 2,
     'block-scoped-var': 2,
     'complexity': [1, 7],
