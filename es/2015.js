@@ -37,7 +37,7 @@ module.exports = {
     'no-useless-rename': 1,
     'no-template-curly-in-string': 1,
     'object-shorthand': 1,
-    'prefer-const': 1,
+    'prefer-const': [1, { ignoreReadBeforeAssign: true }],
     'prefer-numeric-literals': 1,
     'prefer-rest-params': 1,
     'prefer-spread': 1,
