@@ -38,6 +38,7 @@ module.exports = {
     'import/no-absolute-path': 2,
     'import/no-named-as-default': 1,
     'import/no-named-as-default-member': 1,
+    'import/no-named-default': 1,
     'import/no-deprecated': 0,
     'import/no-extraneous-dependencies': [2, {
       devDependencies: false,
