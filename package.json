@@ -26,23 +26,23 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "chai": "3.5.0",
-    "eslint": "3.9.1",
-    "eslint-plugin-import": "2.2.0",
-    "eslint-plugin-jasmine": "2.1.0",
-    "eslint-plugin-jsx-a11y": "2.2.3",
+    "chai": "^3.5.0",
+    "eslint": "~3.10.2",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jasmine": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
     "eslint-plugin-mocha": "4.6.0",
-    "eslint-plugin-node": "3.0.3",
-    "eslint-plugin-react": "6.4.1",
-    "mocha": "3.1.2"
+    "eslint-plugin-node": "^3.0.4",
+    "eslint-plugin-react": "^6.7.1",
+    "mocha": "^3.1.2"
   },
   "peerDependencies": {
-    "eslint": "3.9.x",
+    "eslint": "3.10",
     "eslint-plugin-import": "2.2",
-    "eslint-plugin-jasmine": "2.1",
-    "eslint-plugin-jsx-a11y": "2.2",
+    "eslint-plugin-jasmine": "2",
+    "eslint-plugin-jsx-a11y": "3",
     "eslint-plugin-mocha": "4.6",
-    "eslint-plugin-node": "3.0",
-    "eslint-plugin-react": "6.4"
+    "eslint-plugin-node": "3",
+    "eslint-plugin-react": "6"
   }
 }

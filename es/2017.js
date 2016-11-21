@@ -12,6 +12,16 @@ module.exports = {
 
   rules: {
 
+    /**
+     * Potential Errors
+     */
+
+    'no-return-await': 2,
+
+    /**
+     * Best Practices
+     */
+
     'comma-dangle': [1, 'always-multiline'],
     'space-before-function-paren': [1, {
       anonymous: 'always',

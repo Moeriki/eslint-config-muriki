@@ -34,7 +34,7 @@ module.exports = {
     'consistent-this': [1, 'self'],
     'eol-last': 1,
     'func-call-spacing': 1,
-    'func-names': 1,
+    'func-names': 1, // when env is Node >=6 you can use [1, 'as-needed']
     'id-blacklist': [1,
       'obj', 'object',
       'num', 'number',
