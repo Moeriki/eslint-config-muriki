@@ -2,24 +2,19 @@
   "name": "eslint-config-muriki",
   "version": "7.0.0",
   "description": "My excellent eslint config.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Moeriki/eslint-config-muriki.git"
-  },
   "keywords": [
     "eslint",
     "config"
   ],
+  "homepage": "https://github.com/Moeriki/eslint-config-muriki",
+  "repository": "git@github.com:Moeriki/eslint-config-muriki.git",
+  "bugs": "https://github.com/Moeriki/eslint-config-muriki/issues",
   "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Moeriki/eslint-config-muriki/issues"
-  },
-  "homepage": "https://github.com/Moeriki/eslint-config-muriki",
   "engines": {
     "node": ">=4"
   },
+  "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
     "pretest": "npm run lint",
