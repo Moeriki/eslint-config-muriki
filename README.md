@@ -57,7 +57,6 @@ module.exports = {
 
     // extra
     'muriki/jasmine',              // rules specific for React
-    'muriki/mocha',                // rules specific for React
     'muriki/react',                // rules specific for React
     'muriki/react-jsx',            // extends react
   ]
