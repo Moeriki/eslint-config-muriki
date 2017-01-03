@@ -86,6 +86,7 @@ module.exports = {
     'eqeqeq': [1, 'smart'],
     'func-name-matching': 1,
     'guard-for-in': 1,
+    'no-await-in-loop': 1,
     'no-caller': 2,
     'no-console': 1,
     'no-div-regex': 1,
@@ -133,6 +134,7 @@ module.exports = {
     'no-warning-comments': 1,
     'no-with': 2,
     'radix': 2,
+    'require-await': 2,
     'require-jsdoc': 0,
     'valid-jsdoc': [1, {
       requireReturn: false,
@@ -147,6 +149,19 @@ module.exports = {
     'array-bracket-spacing': 1,
     'block-spacing': 1,
     'brace-style': 1,
+    'capitalized-comments': [
+      2,
+      'always',
+      {
+        line: {
+          ignorePattern: '.*',
+        },
+        block: {
+          ignoreConsecutiveComments: true,
+          ignoreInlineComments: true,
+        },
+      },
+    ],
     'camelcase': 0,
     'comma-spacing': 1,
     'comma-style': 1,
@@ -154,7 +169,7 @@ module.exports = {
     'consistent-this': [1, 'self'],
     'eol-last': 1,
     'func-call-spacing': 1,
-    'func-names': 1, // when env is Node >=6 you can use [1, 'as-needed']
+    'func-names': 1, // When env is Node >=6 you can use [1, 'as-needed']
     'id-blacklist': [1,
       'obj', 'object',
       'num', 'number',
