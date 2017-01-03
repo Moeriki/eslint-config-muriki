@@ -32,7 +32,7 @@ module.exports = {
 
     'class-methods-use-this': 1,
     'no-param-reassign': 1,
-    'no-confusing-arrow': 1,
+    'no-confusing-arrow': 0,
     'no-useless-constructor': 1,
     'no-useless-rename': 1,
     'no-template-curly-in-string': 1,
