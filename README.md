@@ -1,10 +1,18 @@
-# ESLint Config Muriki
-
-An extensive opinionated ESLint config.
-
-[![Build Status](https://travis-ci.org/Moeriki/eslint-config-muriki.svg?branch=master)](https://travis-ci.org/Moeriki/eslint-config-muriki) [![Known Vulnerabilities](https://snyk.io/test/github/moeriki/eslint-config-muriki/badge.svg)](https://snyk.io/test/github/moeriki/eslint-config-muriki) [![dependencies Status](https://david-dm.org/moeriki/eslint-config-muriki/status.svg)](https://david-dm.org/moeriki/eslint-config-muriki) [![Downloads](http://img.shields.io/npm/dm/eslint-config-muriki.svg?style=flat)](https://www.npmjs.org/package/eslint-config-muriki)
-
----
+<p align="center">
+  <h3 align="center">eslint-config-muriki</h3>
+  <p align="center">My extensive, opinionated ESLint config.<p>
+  <p align="center">
+    <a href="https://www.npmjs.com/package/eslint-config-muriki">
+      <img src="https://img.shields.io/npm/v/eslint-config-muriki.svg" alt="npm version">
+    </a>
+    <a href="https://travis-ci.org/Moeriki/eslint-config-muriki">
+      <img src="https://travis-ci.org/Moeriki/eslint-config-muriki.svg?branch=master" alt="Build Status"></img>
+    </a>
+    <a href="https://snyk.io/test/github/moeriki/eslint-config-muriki">
+      <img src="https://snyk.io/test/github/moeriki/eslint-config-muriki/badge.svg" alt="Known Vulnerabilities"></img>
+    </a>
+  </p>
+</p>
 
 ## Install
 
@@ -28,18 +36,14 @@ module.exports = {
 
 ## Modularity
 
-Muriki config is split up in different modules you can combine at your own liking.
+Muriki config is split up in different modules you can combine as you need them.
 
 ```javascript
 module.exports = {
 
   extends: [
 
-    // potential errors and best practices
-    'muriki/base',
-
-    // style rules
-    'muriki/style',
+    'muriki',
 
     // environments
     'muriki/env/browser',
@@ -54,14 +58,17 @@ module.exports = {
     'muriki/es/2015-node4',        // rules specific for es2015 as in Node4
     'muriki/es/2016',              // rules specific for es2016
     'muriki/es/2017',              // rules specific for es2017
+    'muriki/es/modules',           // rules for es modules
 
-    // extra
-    'muriki/jasmine',              // rules specific for React
-    'muriki/react',                // rules specific for React
-    'muriki/react-jsx',            // extends react
+    // plugins
+    'muriki/plugins/jasmine',      // rules for jasmine
+    'muriki/plugins/react',        // rules for react
+
+    // presets
+    'muriki/presets/node',         // includes muriki, env/node, es/2015
+    'muriki/presets/test',         // includes muriki, env/node, es/2015, env/test
+    'muriki/presets/jest',         // includes muriki, env/node, es/2015, env/test, plugins/jasmine
   ]
 
 }
 ```
-
-Extending the default [`extends: ['muriki']`] include `base` and `style`.
