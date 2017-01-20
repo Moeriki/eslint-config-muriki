@@ -38,6 +38,7 @@ module.exports = {
     'no-template-curly-in-string': 1,
     'object-shorthand': 1,
     'prefer-const': [1, { ignoreReadBeforeAssign: true }],
+    'prefer-destructuring': 1,
     'prefer-numeric-literals': 1,
     'prefer-rest-params': 1,
     'prefer-spread': 1,
