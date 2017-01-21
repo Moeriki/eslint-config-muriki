@@ -111,6 +111,7 @@ module.exports = {
       ignore: [-1, 0, 1, 2, 7, 12, 24, 30, 60],
       ignoreArrayIndexes: true,
     }],
+    'no-multi-assign': 1,
     'no-multi-spaces': 1,
     'no-multi-str': 1,
     'no-new': 1,

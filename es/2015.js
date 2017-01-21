@@ -40,6 +40,7 @@ module.exports = {
     'prefer-const': [1, { ignoreReadBeforeAssign: true }],
     'prefer-destructuring': 1,
     'prefer-numeric-literals': 1,
+    'prefer-promise-reject-errors': 2,
     'prefer-rest-params': 1,
     'prefer-spread': 1,
     'prefer-template': 1,
