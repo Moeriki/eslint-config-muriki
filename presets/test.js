@@ -6,7 +6,7 @@ module.exports = {
     '../index.js',
     '../env/node.js',
     '../env/test.js',
-    '../es/2015.js',
+    '../es/2015-node4.js',
   ],
 
 };

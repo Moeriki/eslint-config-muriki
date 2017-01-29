@@ -7,7 +7,7 @@ const path = require('path');
 
 // vendor modules
 
-const { CLIEngine } = require('eslint');
+const CLIEngine = require('eslint').CLIEngine;
 
 // private variables
 
