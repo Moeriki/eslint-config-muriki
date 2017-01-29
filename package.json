@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-muriki",
-  "version": "8.1.4",
+  "version": "8.1.5",
   "description": "My extensive, opinionated ESLint config.",
   "keywords": [
     "eslint",
