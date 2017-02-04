@@ -298,6 +298,7 @@ module.exports = {
     'space-infix-ops': 1,
     'space-unary-ops': 1,
     'spaced-comment': 1,
+    'template-tag-spacing': 1,
     'unicode-bom': 1,
     'wrap-regex': 1,
     'yield-star-spacing': 1,
