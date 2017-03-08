@@ -40,7 +40,7 @@
     "eslint-plugin-react": "6"
   },
   "jest": {
-    "testRegex": "/__tests__/test\\.js$"
+    "testRegex": "/test/test\\.js$"
   },
   "lint-staged": {
     "*.js": "eslint"
