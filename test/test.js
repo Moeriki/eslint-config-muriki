@@ -35,6 +35,10 @@ function cliOutput(filepath) {
 
 [
   'index',
+  'jest',
+  'node',
+  'react',
+  'test',
   'env/browser',
   'env/bundled',
   'env/common-js',
@@ -47,9 +51,6 @@ function cliOutput(filepath) {
   'es/modules',
   'plugins/jasmine',
   'plugins/react',
-  'presets/jest',
-  'presets/node',
-  'presets/test',
 ].forEach((filepath) => {
 
   it(`${filepath} should be valid config`, () => {

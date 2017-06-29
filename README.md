@@ -47,27 +47,27 @@ module.exports = {
 
     // environments
     'muriki/env/browser',
-    'muriki/env/bundled',          // for bundled JavaScript, include after browser for looser rules
-    'muriki/env/common-js',        // node-ish environments, base for node and bundled
-    'muriki/env/node',             // extends node-ish
-    'muriki/env/node-script',      // extends node - some rules loosened up
-    'muriki/env/test',             // loosen up some rules, import after node/browser
+    'muriki/env/bundled',     // for bundled JavaScript, include after browser for looser rules
+    'muriki/env/common-js',   // node-ish environments, base for node and bundled
+    'muriki/env/node',        // extends node-ish
+    'muriki/env/node-script', // extends node - some rules loosened up
+    'muriki/env/test',        // loosen up some rules, import after node/browser
 
     // node version
-    'muriki/es/2015',              // rules specific for es2015
-    'muriki/es/2015-node4',        // rules specific for es2015 as in Node4
-    'muriki/es/2016',              // rules specific for es2016
-    'muriki/es/2017',              // rules specific for es2017
-    'muriki/es/modules',           // rules for es modules
+    'muriki/es/2015',         // rules specific for es2015
+    'muriki/es/2015-node4',   // rules specific for es2015 as in Node4
+    'muriki/es/2016',         // rules specific for es2016
+    'muriki/es/2017',         // rules specific for es2017
+    'muriki/es/modules',      // rules for es modules
 
     // plugins
-    'muriki/plugins/jasmine',      // rules for jasmine
-    'muriki/plugins/react',        // rules for react
+    'muriki/plugins/jasmine', // rules for jasmine
+    'muriki/plugins/react',   // rules for react
 
     // presets
-    'muriki/presets/node',         // includes muriki, env/node, es/2015
-    'muriki/presets/test',         // includes muriki, env/node, es/2015, env/test
-    'muriki/presets/jest',         // includes muriki, env/node, es/2015, env/test, plugins/jasmine
+    'muriki/node',            // includes muriki, env/node, es/2015
+    'muriki/test',            // includes muriki, env/node, es/2015, env/test
+    'muriki/jest',            // includes muriki, env/node, es/2015, env/test, plugins/jasmine
   ]
 
 }

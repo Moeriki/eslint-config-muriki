@@ -4,7 +4,7 @@ module.exports = {
 
   extends: [
     './test.js',
-    '../plugins/jasmine.js',
+    './plugins/jasmine.js',
   ],
 
   env: {

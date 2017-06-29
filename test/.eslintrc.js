@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
   extends: [
-    '../presets/jest.js'
+    '../jest.js'
   ],
 };
