@@ -34,6 +34,7 @@ module.exports = {
       'all',
       {
         conditionalAssign: false,
+        enforceForArrowConditionals: true,
         ignoreJSX: 'multi-line',
         nestedBinaryExpressions: false,
         returnAssign: false,
@@ -123,7 +124,9 @@ module.exports = {
       ignoreArrayIndexes: true,
     }],
     'no-multi-assign': 1,
-    'no-multi-spaces': 1,
+    'no-multi-spaces': [1, {
+      ignoreEOLComments: true,
+    }],
     'no-multi-str': 1,
     'no-new': 1,
     'no-new-func': 2,
