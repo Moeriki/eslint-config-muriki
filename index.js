@@ -146,6 +146,7 @@ module.exports = {
     'no-useless-concat': 2,
     'no-useless-constructor': 1,
     'no-useless-rename': 1,
+    'no-var': 1,
     'no-warning-comments': 1,
     'no-with': 2,
     'prefer-numeric-literals': 1,
@@ -153,6 +154,7 @@ module.exports = {
     'radix': 2,
     'require-await': 2,
     'require-jsdoc': 0,
+    'semi-style': 0,
     'symbol-description': 1,
     'valid-jsdoc': [1, {
       requireReturn: false,
