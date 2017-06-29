@@ -1,19 +1,13 @@
 'use strict';
 
-// node
-
 const fs = require('fs');
 const path = require('path');
 
-// vendor modules
-
 const CLIEngine = require('eslint').CLIEngine;
-
-// private variables
 
 const fixture = fs.readFileSync(path.join(__dirname, './fixture.js'));
 
-// private functions
+// private
 
 /**
  * Verify if a config file is valid.
@@ -62,6 +56,7 @@ function cliOutput(filepath) {
       /* eslint-disable no-console */
       console.log(JSON.stringify(output.results, null, 2));
     }
+
     expect(output.errorCount).toBe(0);
   });
 

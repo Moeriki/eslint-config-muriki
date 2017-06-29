@@ -1,5 +1,5 @@
 'use strict';
 
-var foo = 1;
-var bar = function () { /* */ };
+const foo = 1;
+const bar = function () { /* */ };
 bar(foo);
