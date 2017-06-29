@@ -15,8 +15,8 @@ module.exports = {
     /* Best practices */
 
     'no-duplicate-imports': 2,
-    'no-new-require': 1,
-    'no-unassigned-import/import': 0,
+    'no-mixed-requires': 2,
+    'no-new-require': 2,
     'strict': [2, 'global'],
 
     /* ************* */
@@ -25,12 +25,13 @@ module.exports = {
 
     // static analysis
 
+    'import/default': 2,
+    'import/named': 2,
+    'import/namespace': 2,
     'import/no-unresolved': [2,
       { commonjs: true },
     ],
-    'import/named': 2,
-    'import/default': 2,
-    'import/namespace': 2,
+    'import/no-unassigned-import': 0,
 
     // Helpful warnings
 
