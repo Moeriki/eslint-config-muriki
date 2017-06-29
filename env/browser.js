@@ -8,9 +8,6 @@ module.exports = {
 
     /* Possible errors */
 
-    'comma-dangle': [2,
-      'never',
-    ],
     'dot-notation': [1,
       { allowKeywords: false },
     ],
