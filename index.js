@@ -12,6 +12,7 @@ module.exports = {
       'done',
     ]],
     'constructor-super': 2,
+    'for-direction': 2,
     'no-catch-shadow': 2,
     'no-class-assign': 2,
     'no-compare-neg-zero': 2,
@@ -163,7 +164,9 @@ module.exports = {
 
     /* Stylistic consistency */
 
+    'array-bracket-newline': 0,
     'array-bracket-spacing': 1,
+    'array-element-newline': 0,
     'arrow-body-style': 1,
     'arrow-parens': 1,
     'arrow-spacing': 1,
@@ -239,7 +242,6 @@ module.exports = {
       allowObjectStart: true,
       allowArrayStart: true,
     }],
-    'lines-around-directive': 1,
     'line-comment-position': 0,
     'max-depth': [1, 5],
     'max-len': [1, {
@@ -283,6 +285,19 @@ module.exports = {
     'object-property-newline': [1, { allowMultiplePropertiesPerLine: true }],
     'one-var-declaration-per-line': 1,
     'operator-linebreak': [1, 'before'],
+    'padded-blocks': [1, {
+      classes: 'always',
+      switches: 'never',
+    }],
+    'padding-line-between-statements': [0,
+      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
+      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
+      { blankLine: 'always', prev: '*', next: 'return' },
+      { blankLine: 'always', prev: ['import'], next: '*' },
+      { blankLine: 'any', prev: 'import', next: 'import' },
+      { blankLine: 'always', prev: '*', next: 'export' },
+      { blankLine: 'any', prev: 'export', next: 'export' },
+    ],
     'quote-props': [1, 'consistent-as-needed'],
     'quotes': [1, 'single', 'avoid-escape'],
     'rest-spread-spacing': [1,
@@ -300,6 +315,7 @@ module.exports = {
     'space-infix-ops': 1,
     'space-unary-ops': 1,
     'spaced-comment': 1,
+    'switch-colon-spacing': 1,
     'template-tag-spacing': 1,
     'unicode-bom': 1,
     'wrap-regex': 1,
