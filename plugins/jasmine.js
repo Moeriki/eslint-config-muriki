@@ -16,7 +16,7 @@ module.exports = {
 
   rules: {
     'arrow-body-style': 0,
-    'jasmine/newline-before-expect': 0,
+    'jasmine/new-line-before-expect': 0,
     'jasmine/no-spec-dupes': [1, 'branch'],
     'jasmine/no-suite-dupes': [1, 'branch'],
   },
