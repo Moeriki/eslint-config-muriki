@@ -42,6 +42,8 @@ function cliOutput(filepath) {
   'es/2015',
   'es/2015-node4',
   'es/2016',
+  'es/2017',
+  'es/2018',
   'es/modules',
   'plugins/jasmine',
   'plugins/react',

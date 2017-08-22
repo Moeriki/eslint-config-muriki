@@ -58,7 +58,8 @@ module.exports = {
     'muriki/es/2015-node4',   // rules specific for es2015 as in Node4
     'muriki/es/2016',         // rules specific for es2016
     'muriki/es/2017',         // rules specific for es2017
-    'muriki/es/latest',       // rules specific for latest (es2017)
+    'muriki/es/2018',         // rules specific for es2017
+    'muriki/es/latest',       // rules specific for latest (es2018)
     'muriki/es/modules',      // rules for es modules
 
     // plugins
