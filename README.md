@@ -67,6 +67,7 @@ module.exports = {
 
     // presets
     'muriki/node',            // includes muriki, env/node, es/2015
+    'muriki/react'            // includes muriki, env/browser, env/bundled, es/2015, plugins/react
     'muriki/test',            // includes muriki, env/node, es/2015, env/test
     'muriki/jest',            // includes muriki, env/node, es/2015, env/test, plugins/jasmine
   ]
