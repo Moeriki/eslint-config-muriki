@@ -15,6 +15,12 @@
     "node": ">=4"
   },
   "main": "index.js",
+  "files": [
+    "index.js",
+    "loose.js",
+    "plugins/",
+    "test.js"
+  ],
   "scripts": {
     "lint": "eslint **/*.js",
     "pretest": "npm run lint",
