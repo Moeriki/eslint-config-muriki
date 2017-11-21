@@ -4,7 +4,7 @@
 
 const path = require('path');
 
-const { CLIEngine } = require('eslint');
+const CLIEngine = require('eslint').CLIEngine;
 
 /**
  * Verify if a config file is valid.
