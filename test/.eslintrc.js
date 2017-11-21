@@ -1,6 +1,6 @@
 module.exports = {
-  root: true,
-  extends: [
-    '../jest.js'
-  ],
+  parserOptions: {
+    ecmaVersion: 2017,
+  },
+  extends: '../test.js',
 };

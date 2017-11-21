@@ -2,23 +2,22 @@
 
 module.exports = {
 
-  plugins: [
-    'jasmine',
-  ],
+  env: {
+    jest: true,
+  },
 
   extends: [
     'plugin:jasmine/recommended',
   ],
 
-  env: {
-    jasmine: true,
-  },
+  plugins: [
+    'jasmine',
+  ],
 
   rules: {
-    'arrow-body-style': 0,
-    'jasmine/new-line-before-expect': 0,
-    'jasmine/no-spec-dupes': [1, 'branch'],
-    'jasmine/no-suite-dupes': [1, 'branch'],
+    'jasmine/new-line-before-expect': 'off',
+    'jasmine/no-spec-dupes': ['error', 'branch'],
+    'jasmine/no-suite-dupes': ['error', 'branch'],
   },
 
 };

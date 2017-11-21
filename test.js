@@ -1,12 +1,20 @@
 'use strict';
 
+const path = require('path');
+
 module.exports = {
 
+  env: {
+    jest: true,
+  },
+
   extends: [
-    './index.js',
-    './env/node.js',
-    './env/test.js',
-    './es/2015-node4.js',
+    path.join(__dirname, './loose.js'),
+    path.join(__dirname, './plugins/jasmine.js'),
   ],
+
+  rules: {
+    'arrow-body-style': 'off',
+  },
 
 };
