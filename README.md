@@ -1,14 +1,14 @@
-# ESLint Config NM
+# ESLint Config Muriki
 
 ## Install
 
 ```
-npm install --save-dev eslint eslint-config-nm
+npm install --save-dev eslint eslint-config-muriki
 ```
 
 ## Usage
 
-You'll probably want to use [eslint-plugin-nm](/moeriki/eslint-plugin-muriki) instead.
+You'll probably want to use [eslint-plugin-muriki](http://github.com/moeriki/eslint-plugin-muriki) instead.
 
 ## No I don't
 
@@ -39,7 +39,7 @@ You can use a few different configs.
 You can extend a preset like so.
 
 ```javascript
-module.exports = { extends: 'nm/test' };
+module.exports = { extends: 'muriki/test' };
 ```
 
 ## Linting in IDE
