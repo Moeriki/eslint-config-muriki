@@ -34,8 +34,8 @@ module.exports = {
     // Stylistic preference
 
     'import/extensions': ['error', {
-      js: 'always', // eslint-disable-line id-length
-      json: 'always',
+      js: 'never', // eslint-disable-line id-length
+      json: 'never',
     }],
     // 'import/exports-last': 'error', // TODO enable when released
     'import/max-dependencies': ['warn', { max: 16 }],
