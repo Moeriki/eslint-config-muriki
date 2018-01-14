@@ -37,7 +37,7 @@ module.exports = {
       js: 'never', // eslint-disable-line id-length
       json: 'never',
     }],
-    // 'import/exports-last': 'error', // TODO enable when released
+    'import/exports-last': 'error',
     'import/max-dependencies': ['warn', { max: 16 }],
     'import/newline-after-import': 'error',
     'import/no-absolute-path': 'error',
